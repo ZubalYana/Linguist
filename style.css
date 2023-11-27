@@ -5,6 +5,16 @@
   font-family: Montserrat;
 }
 
+::-moz-selection {
+  background-color: #F4DFC8;
+  color: #000;
+}
+
+::selection {
+  background-color: #F4DFC8;
+  color: #000;
+}
+
 .wrap {
   background-color: #000;
   width: 100%;
@@ -13,8 +23,7 @@
   flex-direction: column;
   align-items: center;
 }
-
-.header {
+.wrap .header {
   width: 100%;
   height: 15vh;
   background-color: #000000;
@@ -24,27 +33,52 @@
   padding: 30px;
   justify-content: space-between;
 }
-.header a {
+.wrap .header a {
   font-size: 24px;
   font-weight: 700;
   color: #F4EAE0;
   text-decoration: none;
   margin-right: 25px;
 }
-.header .header_logo {
+.wrap .header .header_logo {
   width: 86px;
 }
-.header .header_theme {
+.wrap .header .header_theme {
   width: 80px;
   height: 40px;
   border-radius: 30px;
   background-color: #F4EAE0;
   cursor: pointer;
 }
-.header .header_theme_circle {
+.wrap .header .header_theme_circle {
   width: 40px;
   height: 40px;
   background-color: #FAF6F0;
   border-radius: 50%;
   border: 3px solid #000;
+}
+.wrap .mainPage {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.wrap .mainPage .mainPage_title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #F4DFC8;
+  margin-bottom: 10px;
+}
+.wrap .mainPage .mainPage_text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #F4EAE0;
+  width: 600px;
+}
+.wrap .mainPage .mainPage_text_amphasized {
+  color: #F4DFC8;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
