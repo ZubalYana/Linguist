@@ -60,6 +60,7 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
+        position: relative;
     
         .mainPage_title{
             font-size: 48px;
@@ -77,6 +78,29 @@
         .mainPage_text_amphasized{
             color: #F4DFC8;
             font-weight: 500;
+        }
+        .language{
+            position: absolute;
+            width: 50px;
+        }
+        #united-kingdom{
+            top: 50px;
+        }
+        #ukraine{
+            top: 70px;
+            left: 900px;
+        }
+        #france{
+            top: 70px;
+            right: 900px; 
+        }
+        #japan{
+            top: 130px;
+            left: 1040px;
+        }
+        #poland{
+            top: 130px;
+            right: 1040px;
         }
     }
 }

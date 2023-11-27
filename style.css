@@ -65,6 +65,7 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
+  position: relative;
 }
 .wrap .mainPage .mainPage_title {
   font-size: 48px;
@@ -81,4 +82,27 @@
 .wrap .mainPage .mainPage_text_amphasized {
   color: #F4DFC8;
   font-weight: 500;
+}
+.wrap .mainPage .language {
+  position: absolute;
+  width: 50px;
+}
+.wrap .mainPage #united-kingdom {
+  top: 50px;
+}
+.wrap .mainPage #ukraine {
+  top: 70px;
+  left: 900px;
+}
+.wrap .mainPage #france {
+  top: 70px;
+  right: 900px;
+}
+.wrap .mainPage #japan {
+  top: 130px;
+  left: 1040px;
+}
+.wrap .mainPage #poland {
+  top: 130px;
+  right: 1040px;
 }/*# sourceMappingURL=style.css.map */
