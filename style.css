@@ -49,6 +49,8 @@
   border-radius: 30px;
   background-color: #F4EAE0;
   cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
 }
 .wrap .header .header_theme_circle {
   width: 40px;
@@ -72,9 +74,10 @@
   font-weight: 700;
   color: #F4DFC8;
   margin-bottom: 10px;
+  margin-top: -40px;
 }
 .wrap .mainPage .mainPage_text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #F4EAE0;
   width: 480px;
@@ -88,7 +91,7 @@
   width: 50px;
   cursor: pointer;
 }
-.wrap .mainPage #united-kingdom {
+.wrap .mainPage #en {
   top: 40px;
 }
 .wrap .mainPage #ukraine {
@@ -119,7 +122,7 @@
   top: 400px;
   left: 1020px;
 }
-.wrap .mainPage #saudi-arabia {
+.wrap .mainPage #saudiArabia {
   top: 400px;
   right: 1020px;
 }

@@ -41,6 +41,8 @@
             border-radius: 30px;
             background-color: #F4EAE0;
             cursor: pointer;
+            display: flex;
+            justify-content: flex-end;
         }
         .header_theme_circle{
             width: 40px;
@@ -67,10 +69,10 @@
             font-weight: 700;
             color: #F4DFC8;
             margin-bottom: 10px;
-    
+            margin-top: -40px;
         }
         .mainPage_text{
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 400;
             color: #F4EAE0;
             width: 480px;
@@ -84,7 +86,7 @@
             width: 50px;
             cursor: pointer;
         }
-        #united-kingdom{
+        #en{
             top: 40px;
         }
         #ukraine{
@@ -115,7 +117,7 @@
             top: 400px;
             left: 1020px;
         }
-        #saudi-arabia{
+        #saudiArabia{
             top: 400px;
             right: 1020px;
         }
