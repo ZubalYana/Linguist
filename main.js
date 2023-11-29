@@ -9,6 +9,9 @@ let semanticCore ={
         "portugal": "Pagina inicial",
         "spain": "Pagina de inicio",
         "hungary": "Kezdőlap",
+        "china": "主页",
+        "saudiArabia": "الصفحة الرئيسية",
+        "netherlands": "Startpagina",
     },
     aboutUs: {
         "en": "About",
@@ -20,51 +23,65 @@ let semanticCore ={
         "portugal": "Sobre nós",
         "spain": "Sobre nosotros",
         "hungary": "Rólunk",
+        "china": "关于我们",
+        "saudiArabia": "معلومات عنا",
+        "netherlands": "Over ons",
     },
     security: {
         "en": "Security",
         "ukraine": "Безпека",
-        "poland": "Praca",
         "japan": "安全",
-        "france": "Service",
-        //поправити тут французький переклад
+        "france": "Sécurité",
         "lithuania": "Aptarnauti",
         "portugal": "Segurança",
         "spain": "Seguridad",
         "hungary": "Biztonság",
+        "china": "安全",
+        "saudiArabia": "حماية",
+        "netherlands": "Beveiliging",
+        "poland": "Bezpieczeństwo",
     },
     contacts: {
         "en": "Contact",
         "ukraine": "Контакти",
-        "poland": "Kontakty",
         "japan": "連絡先",
         "france": "Contacts",
         "lithuania": "Kontaktai",
         "portugal": "Contato",
         "spain": "Contacto",
         "hungary": "Kapcsolatba lépni",
+        "china": "联系方式",
+        "saudiArabia": "اتصال",
+        "netherlands": "Contacten",
+        "poland": "Łączność",
     },
     help: {
         "en": "Help",
         "ukraine": "Допомога",
-        "poland": "Kontakty",
         "japan": "ヘルプ",
-        "france": "Contacts",
+        "france": "Aide",
         "lithuania": "Pagalba",
         "portugal": "Ajuda",
         "spain": "Ayuda",
         "hungary": "Segítség",
+        "china": "帮助",
+        "saudiArabia": "يساعد",
+        "netherlands": "Hulp",
+        "poland": "Pomoc",
     },
     title: {
         "en": "Hello!",
         "ukraine": "Привіт!",
-        "poland": "Językoznawca!",
         "japan": "こんにちは!",
-        "france": "Linguiste!",
+        "france": "Bonjour!",
         "lithuania": "Sveiki!",
         "portugal": "Olá!",
         "spain": "Hola!",
         "hungary": "Helló!",
+        "china": "你好!",
+        "saudiArabia": "!مرحبًا",
+        "netherlands": "Hallo!",
+        "poland": "Cześć!",
     },
     text: {
         "en": "Are you looking for somebody to translate your material corectly, shortly and qualitatively? You are lucky to find yourself here! We can translate everything on over 20 languages! Our people are very well educatied and smart. Our team includes native speakers and polyglot linguists who will provide you with a reliable and clear translation. Our modern team will provide you with the development and promotion of any business or material.",
@@ -76,6 +93,11 @@ let semanticCore ={
         "portugal": "Você está procurando alguém para traduzir seu material de maneira correta, breve e qualitativa? Você tem sorte de se encontrar aqui! Podemos traduzir tudo em mais de 20 idiomas! Nosso povo é muito bem educado e inteligente. Nossa equipe inclui falantes nativos e linguistas poliglotas que fornecerão uma tradução confiável e clara. Nossa moderna equipe irá lhe proporcionar o desenvolvimento e promoção de qualquer negócio ou material.",
         "spain": "¿Está buscando a alguien que traduzca su material de forma correcta, breve y cualitativa? ¡Tienes suerte de encontrarte aquí! ¡Podemos traducir todo en más de 20 idiomas! Nuestra gente está muy bien educada y es inteligente. Nuestro equipo incluye hablantes nativos y lingüistas políglotas que le brindarán una traducción clara y confiable. Nuestro moderno equipo le facilitará el desarrollo y promoción de cualquier negocio o material.",
         "hungary": "Keres valakit, aki helyesen, röviden és minőségileg lefordítja az anyagát? Szerencsés vagy, hogy itt találtad magad! Mindent le tudunk fordítani több mint 20 nyelvre! Embereink nagyon jól képzettek és okosak. Csapatunk anyanyelvi beszélőkből és többnyelvű nyelvészekből áll, akik megbízható és egyértelmű fordítást nyújtanak Önnek. Modern csapatunk bármilyen vállalkozás vagy anyag fejlesztését és promócióját biztosítja Önnek.",
+        "china": "您是否正在寻找某人来正确、快速、高质量地翻译您的材料？你很幸运能发现自己在这里！我们可以将所有内容翻译成 20 多种语言！我们的人民受过良好教育且聪明。我们的团队包括母语人士和多语言语言学家，他们将为您提供可靠、清晰的翻译。我们现代化的团队将为您提供任何业务或材料的开发和推广。",
+        "saudiArabia": "هل تبحث عن شخص ما لترجمة المواد الخاصة بك بشكل صحيح، في وقت قصير ونوعي؟ أنت محظوظ لتجد نفسك هنا! يمكننا ترجمة كل شيء إلى أكثر من 20 لغة! شعبنا متعلم وذكي للغاية. يضم فريقنا متحدثين أصليين ولغويين متعددي اللغات الذين سيقدمون لك ترجمة موثوقة وواضحة. سيوفر لك فريقنا الحديث تطوير وترويج أي عمل أو مادة.",
+        "netherlands": "Bent u op zoek naar iemand die uw materiaal correct, kort en kwalitatief vertaalt? Je hebt geluk dat je hier bent! Wij kunnen alles vertalen in meer dan 20 talen! Onze mensen zijn zeer goed opgeleid en slim. Ons team bestaat uit moedertaalsprekers en meertalige taalkundigen die u voorzien van een betrouwbare en heldere vertaling. Ons moderne team zal u voorzien van de ontwikkeling en promotie van elk bedrijf of materiaal.",
+        "poland": "Szukasz kogoś, kto rzetelnie, krótko i jakościowo przetłumaczy Twój materiał? Masz szczęście, że się tu znalazłeś! Możemy przetłumaczyć wszystko na ponad 20 języków! Nasi ludzie są bardzo dobrze wykształceni i mądrzy. W naszym zespole znajdują się native speakerzy oraz poligloci, którzy zapewnią Państwu rzetelne i jasne tłumaczenie. Nasz nowoczesny zespół zapewni Państwu rozwój i promocję każdego biznesu lub materiału.",
+        "france": "Cherchez-vous quelqu'un pour traduire votre matériel correctement, rapidement et qualitativement ? Vous avez de la chance de vous retrouver ici ! Nous pouvons tout traduire dans plus de 20 langues ! Notre peuple est très instruit et intelligent. Notre équipe comprend des locuteurs natifs et des linguistes polyglottes qui vous fourniront une traduction fiable et claire. Notre équipe moderne vous assurera le développement et la promotion de toute entreprise ou matériel."
     },
 }
 
@@ -161,3 +183,19 @@ function changeLanguage(){
 }
 
 changeLanguage()
+
+let theme = document.getElementById('theme');
+let wrap = document.getElementById('wrap');
+
+let currentTheme = 'dark'
+theme.addEventListener( 'click', function(){
+    if(currentTheme === 'dark'){
+        theme.style.justifyContent = 'flex-start'
+        currentTheme = 'light'
+
+    }else{
+        theme.style.justifyContent = 'flex-end'
+        currentTheme = 'dark'
+    }
+
+})
