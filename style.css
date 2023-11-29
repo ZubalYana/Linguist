@@ -72,6 +72,9 @@
   border-radius: 50%;
   border: 3px solid #000;
 }
+.wrap .header .header_burger {
+  display: none;
+}
 .wrap .mainPage {
   width: 100%;
   height: 88vh;
@@ -149,4 +152,26 @@
 }
 .wrap .mainPage #hungary {
   top: 520px;
+}
+
+@media screen and (max-device-width: 500px) {
+  .a {
+    display: none;
+  }
+  #header_burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .header_burger_row {
+    width: 45px;
+    height: 6px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background-color: #F4DFC8;
+  }
+  .header_theme {
+    margin-right: -20px;
+  }
 }/*# sourceMappingURL=style.css.map */

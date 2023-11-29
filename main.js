@@ -212,6 +212,8 @@ function applyStyles() {
         i.style.color = '#F4EAE0';
         header_theme_circle.style.backgroundColor = '#000'
         header_theme_circle.style.border = ' 3px solid #F4EAE0'
+        // header_burger_row.style.backgroundColor = '#000'
+
     } else {
         theme.style.justifyContent = 'flex-start';
         theme.style.backgroundColor = '#000';
@@ -226,6 +228,7 @@ function applyStyles() {
         i.style.color = '#222';
         header_theme_circle.style.backgroundColor = '#FAF6F0'
         header_theme_circle.style.border = ' 3px solid #000'
+        // header_burger_row.style.backgroundColor = '#F4DFC8'
 
     }
 }
