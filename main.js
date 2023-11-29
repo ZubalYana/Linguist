@@ -186,16 +186,56 @@ changeLanguage()
 
 let theme = document.getElementById('theme');
 let wrap = document.getElementById('wrap');
+let a = document.querySelectorAll('.a');
+let header_logo = document.getElementById('header_logo');
+let i = document.getElementById('i');
+let mainPage_title = document.getElementById('mainPage_title');
+let mainPage_text = document.getElementById('mainPage_text');
+let header = document.getElementById('header');
 
-let currentTheme = 'dark'
-theme.addEventListener( 'click', function(){
-    if(currentTheme === 'dark'){
-        theme.style.justifyContent = 'flex-start'
-        currentTheme = 'light'
 
-    }else{
-        theme.style.justifyContent = 'flex-end'
-        currentTheme = 'dark'
+let currentTheme = localStorage.getItem('theme') || 'dark';
+
+
+function applyStyles() {
+    if (currentTheme === 'dark') {
+        theme.style.justifyContent = 'flex-end';
+        theme.style.backgroundColor = '#F4EAE0';
+        wrap.style.backgroundColor = '#000';
+        mainPage_title.style.color = '#F4DFC8';
+        mainPage_text.style.color = '#F4EAE0';
+        header.style.backgroundColor = '#000';
+        a.forEach(function (aElement) {
+            aElement.style.color = '#F4EAE0';
+        });
+        header_logo.style.color = '#F4DFC8';
+        i.style.color = '#F4EAE0';
+        header_theme_circle.style.backgroundColor = '#000'
+        header_theme_circle.style.border = ' 3px solid #F4EAE0'
+    } else {
+        theme.style.justifyContent = 'flex-start';
+        theme.style.backgroundColor = '#000';
+        wrap.style.backgroundColor = '#F4EAE0';
+        mainPage_title.style.color = '#000';
+        mainPage_text.style.color = '#000';
+        header.style.backgroundColor = '#F4EAE0';
+        a.forEach(function (aElement) {
+            aElement.style.color = '#000';
+        });
+        header_logo.style.color = '#000';
+        i.style.color = '#222';
+        header_theme_circle.style.backgroundColor = '#FAF6F0'
+        header_theme_circle.style.border = ' 3px solid #000'
+
     }
+}
 
-})
+
+applyStyles();
+
+
+theme.addEventListener('click', function () {
+    currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', currentTheme);
+    applyStyles();
+});

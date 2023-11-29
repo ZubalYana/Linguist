@@ -41,7 +41,20 @@
   margin-right: 25px;
 }
 .wrap .header .header_logo {
-  width: 86px;
+  width: 150px;
+  font-size: 56px;
+  font-weight: 600;
+  color: #F4DFC8;
+  display: flex;
+  align-items: end;
+  cursor: pointer;
+}
+.wrap .header .i {
+  color: #F4EAE0;
+  font-size: 48px;
+}
+.wrap .header .header_logo:hover {
+  letter-spacing: 5px;
 }
 .wrap .header .header_theme {
   width: 80px;
