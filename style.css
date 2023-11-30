@@ -181,4 +181,61 @@
     width: 320px;
     font-size: 16px;
   }
+  .mainPage #en {
+    width: 40px;
+  }
+  .mainPage #ukraine {
+    width: 40px;
+    top: 80px;
+    left: 360px !important;
+  }
+  .mainPage #france {
+    width: 40px;
+    top: 80px;
+    right: 360px !important;
+  }
+  .mainPage #japan {
+    width: 40px;
+    top: 160px;
+    left: 425px !important;
+  }
+  .mainPage #poland {
+    width: 40px;
+    top: 160px;
+    right: 425px !important;
+  }
+  .mainPage #lithuania {
+    width: 40px;
+    top: 260px !important;
+    left: 425px !important;
+  }
+  .mainPage #netherlands {
+    width: 40px;
+    top: 260px !important;
+    right: 425px !important;
+  }
+  .mainPage #portugal {
+    width: 40px;
+    top: 360px !important;
+    left: 425px !important;
+  }
+  .mainPage #saudiArabia {
+    width: 40px;
+    top: 360px !important;
+    right: 425px !important;
+  }
+  .mainPage #spain {
+    width: 40px;
+    top: 440px !important;
+    left: 360px !important;
+  }
+  .mainPage #china {
+    width: 40px;
+    top: 440px !important;
+    right: 360px !important;
+  }
+  .mainPage #hungary {
+    width: 40px;
+    top: 480px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
